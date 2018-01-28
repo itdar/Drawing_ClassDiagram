@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AggregationMenuAction.h" />
+    <ClInclude Include="AggregationsMenuAction.h" />
+    <ClInclude Include="AssociationMenuAction.h" />
+    <ClInclude Include="Aggregation.h" />
+    <ClInclude Include="Aggregations.h" />
+    <ClInclude Include="AddTemplateKey.h" />
+    <ClInclude Include="Array.h" />
+    <ClInclude Include="ArrayIterator.h" />
+    <ClInclude Include="Association.h" />
+    <ClInclude Include="Attribute.h" />
+    <ClInclude Include="BackSpaceKey.h" />
+    <ClInclude Include="Caret.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="Class.h" />
+    <ClInclude Include="ClassDiagramApp.h" />
+    <ClInclude Include="ClassDiagramForm.h" />
+    <ClInclude Include="ClassMenuAction.h" />
+    <ClInclude Include="ClassName.h" />
+    <ClInclude Include="Composition.h" />
+    <ClInclude Include="CompositionMenuAction.h" />
+    <ClInclude Include="Compositions.h" />
+    <ClInclude Include="CompositionsMenuAction.h" />
+    <ClInclude Include="CtrlAllKey.h" />
+    <ClInclude Include="CtrlCopyKey.h" />
+    <ClInclude Include="CtrlCutKey.h" />
+    <ClInclude Include="CtrlEnterKey.h" />
+    <ClInclude Include="CtrlPasteKey.h" />
+    <ClInclude Include="CtrlRedoTextKey.h" />
+    <ClInclude Include="CtrlUndoTextKey.h" />
+    <ClInclude Include="DefaultState.h" />
+    <ClInclude Include="DeleteKey.h" />
+    <ClInclude Include="DeleteGraphicKey.h" />
+    <ClInclude Include="DeleteTextArea.h" />
+    <ClInclude Include="DeleteTextAreaSelected.h" />
+    <ClInclude Include="Dependency.h" />
+    <ClInclude Include="DependencyMenuAction.h" />
+    <ClInclude Include="Diagram.h" />
+    <ClInclude Include="DirectedAssociation.h" />
+    <ClInclude Include="AddReceptionKey.h" />
+    <ClInclude Include="DirectedAssociationMenuAction.h" />
+    <ClInclude Include="DoubleByteCharacter.h" />
+    <ClInclude Include="DoubleClickTextArea.h" />
+    <ClInclude Include="DoubleClickTextAreaProcess.h" />
+    <ClInclude Include="DownArrowKey.h" />
+    <ClInclude Include="DrawingAggregation.h" />
+    <ClInclude Include="DrawingAggregations.h" />
+    <ClInclude Include="DrawingAssociation.h" />
+    <ClInclude Include="DrawingClass.h" />
+    <ClInclude Include="DrawingComposition.h" />
+    <ClInclude Include="DrawingCompositions.h" />
+    <ClInclude Include="DrawingDependency.h" />
+    <ClInclude Include="DrawingDirectedAssociation.h" />
+    <ClInclude Include="DrawingGeneralization.h" />
+    <ClInclude Include="DrawingMemoBox.h" />
+    <ClInclude Include="DrawingMemoLine.h" />
+    <ClInclude Include="DrawingRealization.h" />
+    <ClInclude Include="DrawingRelation.h" />
+    <ClInclude Include="DrawingRelationPoint.h" />
+    <ClInclude Include="DrawingResize.h" />
+    <ClInclude Include="DrawingResizing.h" />
+    <ClInclude Include="DrawingVisitor.h" />
+    <ClInclude Include="DrawRollNameBoxes.h" />
+    <ClInclude Include="EditResizer.h" />
+    <ClInclude Include="EditResizerProcess.h" />
+    <ClInclude Include="EndKey.h" />
+    <ClInclude Include="EnterKey.h" />
+    <ClInclude Include="EscapeKey.h" />
+    <ClInclude Include="Figure.h" />
+    <ClInclude Include="FigureComposite.h" />
+    <ClInclude Include="FigureFactory.h" />
+    <ClInclude Include="FilePrintPreviewMenuAction.h" />
+    <ClInclude Include="Finder.h" />
+    <ClInclude Include="GeneralizationMenuAction.h" />
+    <ClInclude Include="GraphicCtrlAllKey.h" />
+    <ClInclude Include="GraphicCtrlRedoKey.h" />
+    <ClInclude Include="GraphicCtrlUndoKey.h" />
+    <ClInclude Include="LastClass.h" />
+    <ClInclude Include="MemoBoxMenuAction.h" />
+    <ClInclude Include="MemoLineMenuAction.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="MenuAction.h" />
+    <ClInclude Include="NewMenuAction.h" />
+    <ClInclude Include="OnHScrollEnd.h" />
+    <ClInclude Include="OnHScrollLeft.h" />
+    <ClInclude Include="OnHScrollLineLeft.h" />
+    <ClInclude Include="OnHScrollLineRight.h" />
+    <ClInclude Include="OnHScrollPageLeft.h" />
+    <ClInclude Include="OnHScrollPageRight.h" />
+    <ClInclude Include="OnHScrollRight.h" />
+    <ClInclude Include="OnVScrollBottom.h" />
+    <ClInclude Include="OnVScrollLineDown.h" />
+    <ClInclude Include="OnVScrollLineUp.h" />
+    <ClInclude Include="OnVScrollPageDown.h" />
+    <ClInclude Include="OnVScrollPageUp.h" />
+    <ClInclude Include="OnVScrollTop.h" />
+    <ClInclude Include="OpenMenuAction.h" />
+    <ClInclude Include="PrintPreview.h" />
+    <ClInclude Include="RealizationMenuAction.h" />
+    <ClInclude Include="RemoveReceptionKey.h" />
+    <ClInclude Include="FontSet.h" />
+    <ClInclude Include="Generalization.h" />
+    <ClInclude Include="AddAttributeKey.h" />
+    <ClInclude Include="HistoryGraphic.h" />
+    <ClInclude Include="HistoryText.h" />
+    <ClInclude Include="RemoveAttributeKey.h" />
+    <ClInclude Include="HomeKey.h" />
+    <ClInclude Include="InsertKey.h" />
+    <ClInclude Include="Iterator.h" />
+    <ClInclude Include="AddMethodKey.h" />
+    <ClInclude Include="KeyAction.h" />
+    <ClInclude Include="KeyBoard.h" />
+    <ClInclude Include="RemoveMethodKey.h" />
+    <ClInclude Include="LeftArrowKey.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="MemoBox.h" />
+    <ClInclude Include="MemoLine.h" />
+    <ClInclude Include="Method.h" />
+    <ClInclude Include="MinusKey.h" />
+    <ClInclude Include="MouseLButton.h" />
+    <ClInclude Include="MouseLButtonAction.h" />
+    <ClInclude Include="MovingLine.h" />
+    <ClInclude Include="MovingLineProcess.h" />
+    <ClInclude Include="MovingObject.h" />
+    <ClInclude Include="MovingRelation.h" />
+    <ClInclude Include="MovingVisitor.h" />
+    <ClInclude Include="MultipleSelectionState.h" />
+    <ClInclude Include="PlusKey.h" />
+    <ClInclude Include="Realization.h" />
+    <ClInclude Include="Reception.h" />
+    <ClInclude Include="Relation.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RightArrowKey.h" />
+    <ClInclude Include="RollNameBox.h" />
+    <ClInclude Include="Row.h" />
+    <ClInclude Include="SaveAsMenuAction.h" />
+    <ClInclude Include="SaveMenuAction.h" />
+    <ClInclude Include="Scroll.h" />
+    <ClInclude Include="ScrollAction.h" />
+    <ClInclude Include="SupportMenu.h" />
+    <ClInclude Include="SupportMenuAction.h" />
+    <ClInclude Include="Selection.h" />
+    <ClInclude Include="SelectionState.h" />
+    <ClInclude Include="SelfAggregation.h" />
+    <ClInclude Include="SelfAggregations.h" />
+    <ClInclude Include="SelfAssociation.h" />
+    <ClInclude Include="SelfComposition.h" />
+    <ClInclude Include="SelfCompositions.h" />
+    <ClInclude Include="SelfDependency.h" />
+    <ClInclude Include="SelfDirectedAssociation.h" />
+    <ClInclude Include="SelfGeneralization.h" />
+    <ClInclude Include="SelfRelation.h" />
+    <ClInclude Include="SingleByteCharacter.h" />
+    <ClInclude Include="RemoveTemplateKey.h" />
+    <ClInclude Include="SmartPointer.h" />
+    <ClInclude Include="SpaceKey.h" />
+    <ClInclude Include="TabKey.h" />
+    <ClInclude Include="Template.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="TextAreaSelected.h" />
+    <ClInclude Include="TextAreaSelectedProcess.h" />
+    <ClInclude Include="TextComponent.h" />
+    <ClInclude Include="TextComposite.h" />
+    <ClInclude Include="TextEdit.h" />
+    <ClInclude Include="UpArrowKey.h" />
+    <ClInclude Include="Visitor.h" />
+    <ClInclude Include="WriteKoreanText.h" />
+    <ClInclude Include="WriteKoreanTextProcess.h" />
+    <ClInclude Include="WritingVisitor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Aggregation.cpp" />
+    <ClCompile Include="AggregationMenuAction.cpp" />
+    <ClCompile Include="Aggregations.cpp" />
+    <ClCompile Include="AddTemplateKey.cpp" />
+    <ClCompile Include="AggregationsMenuAction.cpp" />
+    <ClCompile Include="ArrayIterator.cpp" />
+    <ClCompile Include="Association.cpp" />
+    <ClCompile Include="AssociationMenuAction.cpp" />
+    <ClCompile Include="Attribute.cpp" />
+    <ClCompile Include="BackSpaceKey.cpp" />
+    <ClCompile Include="Caret.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Class.cpp" />
+    <ClCompile Include="ClassDiagramApp.cpp" />
+    <ClCompile Include="ClassDiagramForm.cpp" />
+    <ClCompile Include="ClassMenuAction.cpp" />
+    <ClCompile Include="ClassName.cpp" />
+    <ClCompile Include="Composition.cpp" />
+    <ClCompile Include="CompositionMenuAction.cpp" />
+    <ClCompile Include="Compositions.cpp" />
+    <ClCompile Include="CompositionsMenuAction.cpp" />
+    <ClCompile Include="CtrlAllKey.cpp" />
+    <ClCompile Include="CtrlCopyKey.cpp" />
+    <ClCompile Include="CtrlCutKey.cpp" />
+    <ClCompile Include="CtrlEnterKey.cpp" />
+    <ClCompile Include="CtrlPasteKey.cpp" />
+    <ClCompile Include="CtrlRedoKey.cpp" />
+    <ClCompile Include="CtrlUndoTextKey.cpp" />
+    <ClCompile Include="DefaultState.cpp" />
+    <ClCompile Include="DeleteKey.cpp" />
+    <ClCompile Include="DeleteGraphicKey.cpp" />
+    <ClCompile Include="DeleteTextArea.cpp" />
+    <ClCompile Include="DeleteTextAreaSelected.cpp" />
+    <ClCompile Include="Dependency.cpp" />
+    <ClCompile Include="DependencyMenuAction.cpp" />
+    <ClCompile Include="Diagram.cpp" />
+    <ClCompile Include="DirectedAssociation.cpp" />
+    <ClCompile Include="AddReceptionKey.cpp" />
+    <ClCompile Include="DirectedAssociationMenuAction.cpp" />
+    <ClCompile Include="DoubleByteCharacter.cpp" />
+    <ClCompile Include="DoubleClickTextArea.cpp" />
+    <ClCompile Include="DoubleClickTextAreaProcess.cpp" />
+    <ClCompile Include="DownArrowKey.cpp" />
+    <ClCompile Include="DrawingAggregation.cpp" />
+    <ClCompile Include="DrawingAggregations.cpp" />
+    <ClCompile Include="DrawingAssociation.cpp" />
+    <ClCompile Include="DrawingClass.cpp" />
+    <ClCompile Include="DrawingComposition.cpp" />
+    <ClCompile Include="DrawingCompositions.cpp" />
+    <ClCompile Include="DrawingDependency.cpp" />
+    <ClCompile Include="DrawingDirectedAssociation.cpp" />
+    <ClCompile Include="DrawingGeneralization.cpp" />
+    <ClCompile Include="DrawingMemoBox.cpp" />
+    <ClCompile Include="DrawingMemoLine.cpp" />
+    <ClCompile Include="DrawingRealization.cpp" />
+    <ClCompile Include="DrawingRelation.cpp" />
+    <ClCompile Include="DrawingRelationPoint.cpp" />
+    <ClCompile Include="DrawingResizing.cpp" />
+    <ClCompile Include="DrawingVisitor.cpp" />
+    <ClCompile Include="DrawningResize.cpp" />
+    <ClCompile Include="DrawRollNameBoxes.cpp" />
+    <ClCompile Include="EditResizer.cpp" />
+    <ClCompile Include="EditResizerProcess.cpp" />
+    <ClCompile Include="EndKey.cpp" />
+    <ClCompile Include="EnterKey.cpp" />
+    <ClCompile Include="EscapeKey.cpp" />
+    <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="FigureComposite.cpp" />
+    <ClCompile Include="FigureFactory.cpp" />
+    <ClCompile Include="FilePrintPreviewMenuAction.cpp" />
+    <ClCompile Include="Finder.cpp" />
+    <ClCompile Include="GeneralizationMenuAction.cpp" />
+    <ClCompile Include="GraphicCtrlAllKey.cpp" />
+    <ClCompile Include="GraphicCtrlRedoKey.cpp" />
+    <ClCompile Include="GraphicCtrlUndoKey.cpp" />
+    <ClCompile Include="LastClass.cpp" />
+    <ClCompile Include="MemoBoxMenuAction.cpp" />
+    <ClCompile Include="MemoLineMenuAction.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="NewMenuAction.cpp" />
+    <ClCompile Include="OnHScrollEnd.cpp" />
+    <ClCompile Include="OnHScrollLeft.cpp" />
+    <ClCompile Include="OnHScrollLineLeft.cpp" />
+    <ClCompile Include="OnHScrollLineRight.cpp" />
+    <ClCompile Include="OnHScrollPageLeft.cpp" />
+    <ClCompile Include="OnHScrollPageRight.cpp" />
+    <ClCompile Include="OnHScrollRight.cpp" />
+    <ClCompile Include="OnVScrollBottom.cpp" />
+    <ClCompile Include="OnVScrollLineDown.cpp" />
+    <ClCompile Include="OnVScrollLineUp.cpp" />
+    <ClCompile Include="OnVScrollPageDown.cpp" />
+    <ClCompile Include="OnVScrollPageUp.cpp" />
+    <ClCompile Include="OnVScrollTop.cpp" />
+    <ClCompile Include="OpenMenuAction.cpp" />
+    <ClCompile Include="PrintPreview.cpp" />
+    <ClCompile Include="RealizationMenuAction.cpp" />
+    <ClCompile Include="RemoveReceptionKey.cpp" />
+    <ClCompile Include="FontSet.cpp" />
+    <ClCompile Include="Generalization.cpp" />
+    <ClCompile Include="AddAttributeKey.cpp" />
+    <ClCompile Include="HistoryGraphic.cpp" />
+    <ClCompile Include="HistoryText.cpp" />
+    <ClCompile Include="RemoveAttributeKey.cpp" />
+    <ClCompile Include="HomeKey.cpp" />
+    <ClCompile Include="InsertKey.cpp" />
+    <ClCompile Include="AddMethodKey.cpp" />
+    <ClCompile Include="KeyAction.cpp" />
+    <ClCompile Include="KeyBoard.cpp" />
+    <ClCompile Include="RemoveMethodKey.cpp" />
+    <ClCompile Include="LeftArrowKey.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="MemoBox.cpp" />
+    <ClCompile Include="MemoLine.cpp" />
+    <ClCompile Include="Method.cpp" />
+    <ClCompile Include="MinusKey.cpp" />
+    <ClCompile Include="MouseLButton.cpp" />
+    <ClCompile Include="MouseLButtonAction.cpp" />
+    <ClCompile Include="MovingLine.cpp" />
+    <ClCompile Include="MovingLineProcess.cpp" />
+    <ClCompile Include="MovingObject.cpp" />
+    <ClCompile Include="MovingRelation.cpp" />
+    <ClCompile Include="MovingVisitor.cpp" />
+    <ClCompile Include="MultipleSelectionState.cpp" />
+    <ClCompile Include="PlusKey.cpp" />
+    <ClCompile Include="Realization.cpp" />
+    <ClCompile Include="Reception.cpp" />
+    <ClCompile Include="Relation.cpp" />
+    <ClCompile Include="RightArrowKey.cpp" />
+    <ClCompile Include="RollNameBox.cpp" />
+    <ClCompile Include="Row.cpp" />
+    <ClCompile Include="SaveAsMenuAction.cpp" />
+    <ClCompile Include="SaveMenuAction.cpp" />
+    <ClCompile Include="Scroll.cpp" />
+    <ClCompile Include="ScrollAction.cpp" />
+    <ClCompile Include="SupportMenu.cpp" />
+    <ClCompile Include="SupportMenuAction.cpp" />
+    <ClCompile Include="Selection.cpp" />
+    <ClCompile Include="SelectionState.cpp" />
+    <ClCompile Include="SelfAggregation.cpp" />
+    <ClCompile Include="SelfAggregations.cpp" />
+    <ClCompile Include="SelfAssociation.cpp" />
+    <ClCompile Include="SelfComposition.cpp" />
+    <ClCompile Include="SelfCompositions.cpp" />
+    <ClCompile Include="SelfDependency.cpp" />
+    <ClCompile Include="SelfDirectedAssociation.cpp" />
+    <ClCompile Include="SelfGeneralization.cpp" />
+    <ClCompile Include="SelfRelation.cpp" />
+    <ClCompile Include="SingleByteCharacter.cpp" />
+    <ClCompile Include="RemoveTemplateKey.cpp" />
+    <ClCompile Include="SpaceKey.cpp" />
+    <ClCompile Include="TabKey.cpp" />
+    <ClCompile Include="Template.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="TextAreaSelected.cpp" />
+    <ClCompile Include="TextAreaSelectedProcess.cpp" />
+    <ClCompile Include="TextComponent.cpp" />
+    <ClCompile Include="TextComposite.cpp" />
+    <ClCompile Include="TextEdit.cpp" />
+    <ClCompile Include="UpArrowKey.cpp" />
+    <ClCompile Include="Visitor.cpp" />
+    <ClCompile Include="WriteKoreanText.cpp" />
+    <ClCompile Include="WriteKoreanTextProcess.cpp" />
+    <ClCompile Include="WritingVisitor.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{EE54C3EA-961D-4217-8B0F-44C954776CB5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LastClass</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>imm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>imm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,1033 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TextEdit">
+      <UniqueIdentifier>{b22c70e7-0fae-4da6-8085-8c77088a9023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KeyAction">
+      <UniqueIdentifier>{bff99018-4c2a-45bf-9b36-4d2620ccfd3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassDiagram">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="MouseAction">
+      <UniqueIdentifier>{df10898e-b180-49b9-b6a1-b1f92fc4dc94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Relationship">
+      <UniqueIdentifier>{906d5de1-610c-41af-8edb-b35c91950de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diagram">
+      <UniqueIdentifier>{42c39bb8-a484-4b69-acfb-db4a11a7d226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="KeyAction\ClassDiagram">
+      <UniqueIdentifier>{cacda3ed-fc94-4b44-886b-6f547b468a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KeyAction\TextEdit">
+      <UniqueIdentifier>{16d80ff2-a657-44a1-b3e9-565cde0ae1cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScrollBar">
+      <UniqueIdentifier>{8a987566-45b4-4852-9630-3923117e1202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{875438d8-f102-470a-a207-cf2e8c152d32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Array.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassDiagramApp.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="FigureComposite.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="FigureFactory.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="Finder.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingVisitor.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="Selection.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingObject.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="TextAreaSelected.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="TextComponent.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="TextComposite.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEdit.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="WritingVisitor.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleByteCharacter.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="Row.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryText.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleByteCharacter.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="Caret.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="Aggregation.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="Aggregations.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="Association.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectedAssociation.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingAggregation.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingAggregations.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingAssociation.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingComposition.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingCompositions.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingDependency.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingDirectedAssociation.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingGeneralization.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingMemoLine.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingRealization.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="Realization.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="SelfAggregation.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="SelfAggregations.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="SelfAssociation.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="SelfComposition.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="SelfCompositions.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="SelfDependency.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="SelfDirectedAssociation.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="SelfGeneralization.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="SelfRelation.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="Relation.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="Generalization.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoLine.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingVisitor.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseLButtonAction.h">
+      <Filter>MouseAction</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseLButton.h">
+      <Filter>MouseAction</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultState.h">
+      <Filter>MouseAction</Filter>
+    </ClInclude>
+    <ClInclude Include="MultipleSelectionState.h">
+      <Filter>MouseAction</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionState.h">
+      <Filter>MouseAction</Filter>
+    </ClInclude>
+    <ClInclude Include="Composition.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="Compositions.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependency.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="Class.h">
+      <Filter>Diagram</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassName.h">
+      <Filter>Diagram</Filter>
+    </ClInclude>
+    <ClInclude Include="Diagram.h">
+      <Filter>Diagram</Filter>
+    </ClInclude>
+    <ClInclude Include="Attribute.h">
+      <Filter>Diagram</Filter>
+    </ClInclude>
+    <ClInclude Include="Method.h">
+      <Filter>Diagram</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoBox.h">
+      <Filter>Diagram</Filter>
+    </ClInclude>
+    <ClInclude Include="Template.h">
+      <Filter>Diagram</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Diagram</Filter>
+    </ClInclude>
+    <ClInclude Include="Reception.h">
+      <Filter>Diagram</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingClass.h">
+      <Filter>Diagram</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingMemoBox.h">
+      <Filter>Diagram</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteTextAreaSelected.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteTextArea.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteKoreanTextProcess.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteKoreanText.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleClickTextArea.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleClickTextAreaProcess.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPointer.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="TextAreaSelectedProcess.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayIterator.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="FontSet.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingRelation.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingRelationPoint.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingLineProcess.h">
+      <Filter>Diagram</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingLine.h">
+      <Filter>Diagram</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingResizing.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="EditResizerProcess.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="EditResizer.h">
+      <Filter>TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="BackSpaceKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="CtrlAllKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="CtrlCopyKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="CtrlCutKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="CtrlEnterKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="CtrlPasteKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="CtrlRedoTextKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="CtrlUndoTextKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="UpArrowKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="TabKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="RightArrowKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="PlusKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="MinusKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftArrowKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="EscapeKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="DownArrowKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="EndKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="EnterKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAction.h">
+      <Filter>KeyAction</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBoard.h">
+      <Filter>KeyAction</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollAction.h">
+      <Filter>ScrollBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Scroll.h">
+      <Filter>ScrollBar</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingRelation.h">
+      <Filter>Relationship</Filter>
+    </ClInclude>
+    <ClInclude Include="RollNameBox.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawRollNameBoxes.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteKey.h">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="AddTemplateKey.h">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteGraphicKey.h">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="AddReceptionKey.h">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveReceptionKey.h">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="AddAttributeKey.h">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveAttributeKey.h">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="AddMethodKey.h">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveMethodKey.h">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveTemplateKey.h">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="AggregationMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="AggregationsMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="AssociationMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositionMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositionsMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="DependencyMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectedAssociationMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralizationMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoLineMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoBoxMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="RealizationMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassDiagramForm.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicCtrlAllKey.h">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicCtrlRedoKey.h">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicCtrlUndoKey.h">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryGraphic.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="LastClass.h" />
+    <ClInclude Include="SaveAsMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="NewMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintPreview.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SupportMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SupportMenu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePrintPreviewMenuAction.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingResize.h">
+      <Filter>ClassDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="OnHScrollEnd.h">
+      <Filter>ScrollBar</Filter>
+    </ClInclude>
+    <ClInclude Include="OnHScrollLeft.h">
+      <Filter>ScrollBar</Filter>
+    </ClInclude>
+    <ClInclude Include="OnHScrollLineLeft.h">
+      <Filter>ScrollBar</Filter>
+    </ClInclude>
+    <ClInclude Include="OnHScrollLineRight.h">
+      <Filter>ScrollBar</Filter>
+    </ClInclude>
+    <ClInclude Include="OnHScrollPageLeft.h">
+      <Filter>ScrollBar</Filter>
+    </ClInclude>
+    <ClInclude Include="OnHScrollPageRight.h">
+      <Filter>ScrollBar</Filter>
+    </ClInclude>
+    <ClInclude Include="OnHScrollRight.h">
+      <Filter>ScrollBar</Filter>
+    </ClInclude>
+    <ClInclude Include="OnVScrollBottom.h">
+      <Filter>ScrollBar</Filter>
+    </ClInclude>
+    <ClInclude Include="OnVScrollLineDown.h">
+      <Filter>ScrollBar</Filter>
+    </ClInclude>
+    <ClInclude Include="OnVScrollLineUp.h">
+      <Filter>ScrollBar</Filter>
+    </ClInclude>
+    <ClInclude Include="OnVScrollPageDown.h">
+      <Filter>ScrollBar</Filter>
+    </ClInclude>
+    <ClInclude Include="OnVScrollPageUp.h">
+      <Filter>ScrollBar</Filter>
+    </ClInclude>
+    <ClInclude Include="OnVScrollTop.h">
+      <Filter>ScrollBar</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClassDiagramApp.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="Figure.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="FigureComposite.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="FigureFactory.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="Finder.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingVisitor.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="Selection.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingObject.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="TextAreaSelected.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="TextComponent.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="TextComposite.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleByteCharacter.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="Row.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryText.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleByteCharacter.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="Caret.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="Aggregation.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="Aggregations.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="Association.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectedAssociation.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingAggregation.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingAggregations.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingAssociation.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingComposition.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingCompositions.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingDependency.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingDirectedAssociation.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingGeneralization.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingMemoLine.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingRealization.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="Realization.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfAggregation.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfAggregations.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfAssociation.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfComposition.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfCompositions.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfDependency.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfDirectedAssociation.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfGeneralization.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfRelation.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="Relation.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="Generalization.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoLine.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingVisitor.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseLButtonAction.cpp">
+      <Filter>MouseAction</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseLButton.cpp">
+      <Filter>MouseAction</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultState.cpp">
+      <Filter>MouseAction</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleSelectionState.cpp">
+      <Filter>MouseAction</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionState.cpp">
+      <Filter>MouseAction</Filter>
+    </ClCompile>
+    <ClCompile Include="Composition.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="Compositions.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="Class.cpp">
+      <Filter>Diagram</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassName.cpp">
+      <Filter>Diagram</Filter>
+    </ClCompile>
+    <ClCompile Include="Diagram.cpp">
+      <Filter>Diagram</Filter>
+    </ClCompile>
+    <ClCompile Include="Attribute.cpp">
+      <Filter>Diagram</Filter>
+    </ClCompile>
+    <ClCompile Include="Method.cpp">
+      <Filter>Diagram</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoBox.cpp">
+      <Filter>Diagram</Filter>
+    </ClCompile>
+    <ClCompile Include="Template.cpp">
+      <Filter>Diagram</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Diagram</Filter>
+    </ClCompile>
+    <ClCompile Include="Reception.cpp">
+      <Filter>Diagram</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingClass.cpp">
+      <Filter>Diagram</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingMemoBox.cpp">
+      <Filter>Diagram</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteTextAreaSelected.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteTextArea.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteKoreanTextProcess.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteKoreanText.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleClickTextArea.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleClickTextAreaProcess.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="Visitor.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="TextAreaSelectedProcess.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingResizing.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayIterator.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="FontSet.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="EditResizer.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="EditResizerProcess.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="BackSpaceKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="CtrlAllKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="CtrlCopyKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="CtrlCutKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="CtrlEnterKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="CtrlPasteKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="CtrlRedoKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="CtrlUndoTextKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="UpArrowKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="TabKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="RightArrowKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="MinusKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftArrowKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="DownArrowKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="EndKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="EnterKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="EscapeKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyAction.cpp">
+      <Filter>KeyAction</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBoard.cpp">
+      <Filter>KeyAction</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawRollNameBoxes.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="RollNameBox.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="Scroll.cpp">
+      <Filter>ScrollBar</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollAction.cpp">
+      <Filter>ScrollBar</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingLineProcess.cpp">
+      <Filter>Diagram</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingLine.cpp">
+      <Filter>Diagram</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingRelation.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingRelationPoint.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteKey.cpp">
+      <Filter>KeyAction\TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTemplateKey.cpp">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteGraphicKey.cpp">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="AddReceptionKey.cpp">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveReceptionKey.cpp">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="AddAttributeKey.cpp">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveAttributeKey.cpp">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="AddMethodKey.cpp">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveMethodKey.cpp">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveTemplateKey.cpp">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingRelation.cpp">
+      <Filter>Relationship</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassDiagramForm.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicCtrlRedoKey.cpp">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicCtrlUndoKey.cpp">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryGraphic.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicCtrlAllKey.cpp">
+      <Filter>KeyAction\ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoBoxMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoLineMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralizationMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectedAssociationMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="DependencyMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositionsMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositionMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="AssociationMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="AggregationsMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="AggregationMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="RealizationMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="WritingVisitor.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEdit.cpp">
+      <Filter>TextEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawningResize.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePrintPreviewMenuAction.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintPreview.cpp">
+      <Filter>ClassDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="LastClass.cpp" />
+    <ClCompile Include="OpenMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="NewMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveAsMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SupportMenuAction.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SupportMenu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="OnHScrollEnd.cpp">
+      <Filter>ScrollBar</Filter>
+    </ClCompile>
+    <ClCompile Include="OnHScrollLeft.cpp">
+      <Filter>ScrollBar</Filter>
+    </ClCompile>
+    <ClCompile Include="OnHScrollLineLeft.cpp">
+      <Filter>ScrollBar</Filter>
+    </ClCompile>
+    <ClCompile Include="OnHScrollLineRight.cpp">
+      <Filter>ScrollBar</Filter>
+    </ClCompile>
+    <ClCompile Include="OnHScrollPageLeft.cpp">
+      <Filter>ScrollBar</Filter>
+    </ClCompile>
+    <ClCompile Include="OnHScrollPageRight.cpp">
+      <Filter>ScrollBar</Filter>
+    </ClCompile>
+    <ClCompile Include="OnHScrollRight.cpp">
+      <Filter>ScrollBar</Filter>
+    </ClCompile>
+    <ClCompile Include="OnVScrollBottom.cpp">
+      <Filter>ScrollBar</Filter>
+    </ClCompile>
+    <ClCompile Include="OnVScrollLineDown.cpp">
+      <Filter>ScrollBar</Filter>
+    </ClCompile>
+    <ClCompile Include="OnVScrollLineUp.cpp">
+      <Filter>ScrollBar</Filter>
+    </ClCompile>
+    <ClCompile Include="OnVScrollPageDown.cpp">
+      <Filter>ScrollBar</Filter>
+    </ClCompile>
+    <ClCompile Include="OnVScrollPageUp.cpp">
+      <Filter>ScrollBar</Filter>
+    </ClCompile>
+    <ClCompile Include="OnVScrollTop.cpp">
+      <Filter>ScrollBar</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
